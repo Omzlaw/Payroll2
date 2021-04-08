@@ -1,0 +1,39 @@
+﻿// /*  
+//     Solution: ED E-Registry
+//     Developer: Omeiza Alabi
+//     E-mail: omeiza.alabi@edsinetechnologiesltd.com
+//     Phone Number: +234705583-564
+//     Company's Website: www.edsinetechnologiesltd.com
+// */
+
+// using System;
+
+
+// namespace ProjectConnectDB
+// {
+//     class Program
+//     {
+        
+        
+//         static void Main(string[] args)
+//         {
+
+//             using (var db = new ConnectContext()) 
+//             {
+//                 var employee = new Employee {
+//                     FirstName = "Omeiza", 
+//                     LastName = "Alabi", 
+//                     Gender = "Male", 
+//                     Department = "Fullstack", 
+//                     EmailAddress = "omeizaalabi@gmail.com"
+//                 };
+//                 db.Employees.Add(employee);
+//                 db.SaveChanges();
+//             }
+
+//         }
+
+//     }
+
+// }
+
